@@ -28,7 +28,7 @@ def noChange(cents):
   if cents % 100 == 0:
     print(cents // 100)
     return "Hoorah!"
-  elif cents % 200 != 0
+  elif cents % 200 != 0:
     print(cents // 100)
   return "Keep the change!"
 
@@ -43,7 +43,7 @@ def oldFactorial(num):
         if num <= 0:
             break
         else:
-            total = total * num
+            total *= num
             num -= 1
     return total
   
@@ -54,4 +54,4 @@ def main():
     print(isOdd(12))
     print(isEven(12))
     print("TESTING", noChange(100))
-    print("TESTING", noChange(225)
+    print("TESTING", noChange(225))
