@@ -1,3 +1,7 @@
+#1 howManyEven() is counting the number of even numbers between 0 and the number, howManyEven(9) = 5
+#2 isOdd(3) returns true because the remainder when 3/2 doesn't = 0
+#3 see code below
+#4 n = 3 // 4
 #input: a number
 #output: the number of even numbers between that number and 0 (including 0 and the number)
 def howManyEven(num):
@@ -30,13 +34,13 @@ def noChange(cents):
 def oldFactorial(num):
     total = 1
     if num < 0:
-        num = num * (-1)
+        num *= -1
     while(num == num):
         if num <= 0:
             break
         else:
             total = total * num
-            num = num - 1
+            num -= 1
     return total
   
     
