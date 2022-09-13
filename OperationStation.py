@@ -25,8 +25,12 @@ def isOdd(num):
     return num % 2 != 0
   
 def noChange(cents):
-  #student code here
-  return
+  if cents % 100 == 0:
+    print(cents // 100)
+    return "Hoorah!"
+  elif cents % 200 != 0
+    print(cents // 100)
+  return "Keep the change!"
 
 
 #input: num–an int of some kind
@@ -49,3 +53,5 @@ def main():
     print(howManyEven(9))
     print(isOdd(12))
     print(isEven(12))
+    print("TESTING", noChange(100))
+    print("TESTING", noChange(225)
